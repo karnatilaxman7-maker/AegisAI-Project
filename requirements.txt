@@ -1,0 +1,27 @@
+# AegisAI Emergency Detection System - Dependencies
+
+# Computer Vision & Image Processing
+opencv-python==4.8.1.78
+mediapipe==0.10.8
+Pillow==10.1.0
+
+# Audio Processing & Speech Recognition
+SpeechRecognition==3.10.0
+pyaudio==0.2.14
+sounddevice==0.4.6
+
+# Email & Communication
+secure-smtplib==0.1.1
+
+# Scientific Computing
+numpy==1.24.3
+
+# GUI
+# tkinter comes pre-installed with Python
+
+# Optional: For better audio handling on different platforms
+# Uncomment based on your OS:
+# PyAudio dependencies:
+# - On Windows: pip install pipwin && pipwin install pyaudio
+# - On macOS: brew install portaudio && pip install pyaudio
+# - On Linux: sudo apt-get install python3-pyaudio
